@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+.inner-log {
+  color: black;
+}
+.login-sec {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #68686812;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(253 187 1));
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  margin-top: 30px;
+}
+.logout-sec {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #68686812;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(253 187 1));
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  margin-top: 30px;
+}
+.form {
+  width: 50%;
+  margin: 0 auto;
+}
+.input-sec {
+  width: 50%;
+  margin-bottom: 10px;  
+}
+.ant-form-item-control-input-content {
+  flex: auto;
+  max-width: 40% !important;
+}
+.ant-form-horizontal .ant-form-item-label {
+  margin-left: 20px;
+}
+.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  display: none !important;
+}
+.signUp-btn {
+  margin-top:10px;
+}
